@@ -41,7 +41,7 @@ namespace Algorytm12
                         if (y > 0)
                         {
                             Console.WriteLine(Coins[i].Value >= 1 ? y + " x " + Coins[i].Value + "zł"
-                            : y + " x " + Coins[i].Value * 100 + "gr");
+                            : y + " x " + Coins[i].Value * 100 + "gr.");
                         }
                         i--;
                         y = 0;
@@ -50,7 +50,7 @@ namespace Algorytm12
                 if (y > 0)
                 {
                     Console.WriteLine(Coins[i].Value >= 1 ? y + " x " + Coins[i].Value + "zł"
-                    : y + " x " + Coins[i].Value * 100 + "gr");
+                    : y + " x " + Coins[i].Value * 100 + "gr.");
                 }
 
                 Console.WriteLine("Wydano " + howManyAtAll + " monet.");
