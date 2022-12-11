@@ -58,7 +58,7 @@ namespace Algorytm12
             catch (Exception)
             {
                 Console.Clear();
-                Console.WriteLine("Nie mam jak wydać :(");
+                Console.WriteLine("Niestety nie mam jak wydać :(");
             }
         }
     }
